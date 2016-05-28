@@ -14,6 +14,11 @@
 		8A19A95F1CEAEECE004BB972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A19A95D1CEAEECE004BB972 /* LaunchScreen.storyboard */; };
 		8A19A96A1CEAEECE004BB972 /* BMII_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A19A9691CEAEECE004BB972 /* BMII_CalculatorTests.swift */; };
 		8A19A9751CEAEECE004BB972 /* BMII_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A19A9741CEAEECE004BB972 /* BMII_CalculatorUITests.swift */; };
+		8A7436AA1CEEC81D0013168F /* scale-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7436A91CEEC81D0013168F /* scale-icon@2x.png */; };
+		8A7436AE1CEECEF90013168F /* health-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7436AD1CEECEF90013168F /* health-icon@2x.png */; };
+		8A7436B01CEECFA60013168F /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7436AF1CEECFA60013168F /* TipsViewController.swift */; };
+		8A7436B41CEED3720013168F /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A7436B31CEED3720013168F /* coffee.jpg */; };
+		8A7436B61CEED5500013168F /* teeth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A7436B51CEED5500013168F /* teeth.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		8A19A9701CEAEECE004BB972 /* BMII CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMII CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A19A9741CEAEECE004BB972 /* BMII_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMII_CalculatorUITests.swift; sourceTree = "<group>"; };
 		8A19A9761CEAEECE004BB972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7436A91CEEC81D0013168F /* scale-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scale-icon@2x.png"; sourceTree = "<group>"; };
+		8A7436AD1CEECEF90013168F /* health-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health-icon@2x.png"; sourceTree = "<group>"; };
+		8A7436AF1CEECFA60013168F /* TipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		8A7436B31CEED3720013168F /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
+		8A7436B51CEED5500013168F /* teeth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = teeth.jpg; path = "BMII Calculator/teeth.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,10 @@
 		8A19A9481CEAEECD004BB972 = {
 			isa = PBXGroup;
 			children = (
+				8A7436B31CEED3720013168F /* coffee.jpg */,
+				8A7436A91CEEC81D0013168F /* scale-icon@2x.png */,
+				8A7436AD1CEECEF90013168F /* health-icon@2x.png */,
+				8A7436B51CEED5500013168F /* teeth.jpg */,
 				8A19A9531CEAEECE004BB972 /* BMII Calculator */,
 				8A19A9681CEAEECE004BB972 /* BMII CalculatorTests */,
 				8A19A9731CEAEECE004BB972 /* BMII CalculatorUITests */,
@@ -100,6 +114,7 @@
 				8A19A9541CEAEECE004BB972 /* AppDelegate.swift */,
 				8A19A9561CEAEECE004BB972 /* ViewController.swift */,
 				8A19A9581CEAEECE004BB972 /* Main.storyboard */,
+				8A7436AF1CEECFA60013168F /* TipsViewController.swift */,
 				8A19A95B1CEAEECE004BB972 /* Assets.xcassets */,
 				8A19A95D1CEAEECE004BB972 /* LaunchScreen.storyboard */,
 				8A19A9601CEAEECE004BB972 /* Info.plist */,
@@ -233,8 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A19A95F1CEAEECE004BB972 /* LaunchScreen.storyboard in Resources */,
+				8A7436B61CEED5500013168F /* teeth.jpg in Resources */,
+				8A7436AE1CEECEF90013168F /* health-icon@2x.png in Resources */,
 				8A19A95C1CEAEECE004BB972 /* Assets.xcassets in Resources */,
+				8A7436B41CEED3720013168F /* coffee.jpg in Resources */,
 				8A19A95A1CEAEECE004BB972 /* Main.storyboard in Resources */,
+				8A7436AA1CEEC81D0013168F /* scale-icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +280,7 @@
 			files = (
 				8A19A9571CEAEECE004BB972 /* ViewController.swift in Sources */,
 				8A19A9551CEAEECE004BB972 /* AppDelegate.swift in Sources */,
+				8A7436B01CEECFA60013168F /* TipsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +505,7 @@
 				8A19A97B1CEAEECE004BB972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A19A97C1CEAEECE004BB972 /* Build configuration list for PBXNativeTarget "BMII CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +514,7 @@
 				8A19A97E1CEAEECE004BB972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A19A97F1CEAEECE004BB972 /* Build configuration list for PBXNativeTarget "BMII CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +523,7 @@
 				8A19A9811CEAEECE004BB972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
